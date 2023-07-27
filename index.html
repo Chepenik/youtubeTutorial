@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Tutorial</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+    <body onload="checkCookie()">
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home"><img src="images/logo.png" id="navbar__logo" alt="bitcoinlogo" class="logo"></a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home-page">About Me</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__links" id="about-page">My Work</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#services" class="navbar__links" id="services-page">Resources</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="https://www.youtube.com/@conorchepenik" class="button" id="signup"
+                            target="_blank">Subscribe on Youtube</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <h1 class="hero__heading">Welcome To <span>Youtube Tutorial</span> Website</h1>
+                <p class="hero__description">I'm a software developer and Bitcoin enthusiast. On my YouTube channel
+                    I create tutorials on programming and host a podcast to discuss Bitcoin. Scroll down to learn more about
+                    my work.</p>
+                <button class="main__btn"><a href="https://www.youtube.com/@conorchepenik" target="_blank">Subscribe on
+                        Youtube</a></button>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="main" id="about">
+            <div class="main__container">
+                <div class="main__img--container">
+                    <div class="main__img--card"><img src="images/chepdaddy.jpg" alt="Photo of Conor"></div>
+                </div>
+                <div class="main__content">
+                    <h1>About Me</h1>
+                    <h2>Software Developer and Bitcoin Enthusiast</h2>
+                    <p>I'm a software engineer with a passion for Bitcoin and Nostr. When I'm not shitposting I enjoy
+                        attending Bitcoin meetups in the Boston area, long walks, and good books.</p>
+                    <button class="main__btn"><a href="https://github.com/Chepenik">View My GitHub</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <div class="services" id="services">
+            <h1>My YouTube Videos</h1>
+            <div class="services__wrapper">
+                <div class="services__card">
+                    <h2>Intro to What Is Money?</h2>
+                    <p>A beginner tutorial on writing smart contracts</p>
+                    <div class="services__btn"><a href="#">Watch Now</a></div>
+                </div>
+                <div class="services__card">
+                    <h2>What is Bitcoin?</h2>
+                    <p>A simple explanation of how Bitcoin works</p>
+                    <div class="services__btn"><a href="#">Watch Now</a></div>
+                </div>
+                <div class="services__card">
+                    <h2>React.js Crash Course</h2>
+                    <p>Build a React app in just a few hours</p>
+                    <div class="services__btn"><a href="#">Watch Now</a></div>
+                </div>
+                <div class="services__card">
+                    <h2>Run A Bitcoin Node</h2>
+                    <p>An introduction to running a Bitcoin node at home</p>
+                    <div class="services__btn"><a href="#">Watch Now</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="main" id="sign-up">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>Learn With Me</h1>
+                    <h2>On My YouTube Channel</h2>
+                    <p>
+                        I enjoy breaking down complex technical topics in an easy-to-understand way. My goal is to make
+                        programming and blockchain accessible for everyone. On my YouTube channel, I publish weekly tutorials
+                        on software development and cryptocurrency. Subscribe if you want to improve your coding skills and
+                        learn more about Bitcoin!
+                    </p>
+                    <button class="main__btn"><a href="https://www.youtube.com/@conorchepenik">Subscribe on YouTube</a></button>
+                </div>
+                <div class="main__img--container">
+                    <div class="main__img--card" id="card-2">
+                        <img src="images/chepyoutube.jpg" alt="YouTube Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Me</h2>
+                        <a href="/sign__up">My Story</a>
+                        <a href="/">FAQ</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Contact</h2>
+                        <a href="/">Email</a>
+                        <a href="form.html">Contact Form</a>
+                    </div>
+                </div>
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>Social</h2>
+                        <a href="https://github.com/Chepenik">GitHub</a>
+                        <a href="https://twitter.com/">Twitter</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Code</h2>
+                        <a href="https://github.com/Chepenik">View Source</a>
+                    </div>
+                </div>
+            </div>
+            <section class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><img src="images/logo.png" id="navbar__logo" alt=""></a>
+                    </div>
+                    <p class="website__rights">Conor Chepenik 2023 All Rights Reserved.</p>
+                    <div class="social__icons">
+                        <a href="https://github.com/Chepenik" class="social__icon--link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@conorchepenik" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
